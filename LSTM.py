@@ -6,12 +6,6 @@ from sklearn.preprocessing import MinMaxScaler
  
  
 if __name__ == "__main__":
-    """
-    First part of building a model is to get the data and prepare
-    it for our model. You can use any dataset for stock prediction
-    make sure you set the price column on line number 21.  Here we
-    use a dataset which have the price on 3rd column.
-    """
     df = pd.read_csv("sample_data.csv", header=None)
     len_data = df.shape[:1][0]
     # If you're using some other dataset input the target column
