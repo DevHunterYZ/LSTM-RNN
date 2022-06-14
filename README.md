@@ -1,2 +1,2 @@
 # LSTM-RNN
-LSTM-RNN implementation with Tensorflow
+LSTM-RNN implementation with Keras
